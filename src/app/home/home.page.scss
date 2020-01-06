@@ -1,4 +1,42 @@
-.welcome-card img {
-  max-height: 35vh;
-  overflow: hidden;
+.morning {
+  background: url("../../assets/images/morning_2.jpg");
+  background-size: cover;
+}
+.noon {
+  background: url("../../assets/images/noon_2.jpg");
+  background-size: cover;
+}
+.sunset {
+  background: url("../../assets/images/sunset_2.jpg");
+  background-size: cover;
+}
+.night {
+  background: url("../../assets/images/night_2.jpg");
+  background-size: cover;
+}
+
+ion-card-content{
+  color: white;
+}
+
+ion-toggle{
+  right: 1em;
+  top: 40%;
+  position: absolute;
+  padding-bottom: 3px;
+  padding-top: 3px;
+}
+
+.toggle-icon{
+  handle-background-checked: white;
+}
+
+.alarm-time{
+  font-size: Large;
+}
+.days{
+  font-size: smaller;
+}
+.alarm-label{
+  font-size: smaller;
 }
